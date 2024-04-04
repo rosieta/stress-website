@@ -1332,7 +1332,13 @@
   content: "\f199";
 }
 .fa-wordpress:before {
-  content: "\f19a";
+  content: "";
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(../../../img/portfolio/obesity.png);
 }
 .fa-openid:before {
   content: "\f19b";

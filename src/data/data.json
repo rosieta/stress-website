@@ -1,21 +1,22 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": "\"All stress begins with one negative thought\"",
+    "author": "Harry",
+    "paragraph": "In 5 minutes, find out how stressed you are and learn easy ways to feel better."
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "Stress can show up in many ways, and it's not the same for everyone. Some people might feel nervous or worried a lot. Others might get upset easily or have a hard time calming down. These signs below tell you that your body is under stress, and it's important to listen to these signals so you can find ways to feel better.",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "Feeling anxious or worried",
+      "Being easily upset or angry",
+      "Trouble relaxing or calming down",
+      "Sleeping too little or too much"
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "Feeling tired all the time",
+      "Having headaches ",
+      "Eating too little or too much",
+      "Difficulty concentrating"
     ]
   },
   "Gallery": [
