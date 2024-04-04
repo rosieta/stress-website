@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body,
 html {
   font-family: "Open Sans", sans-serif;
@@ -334,13 +338,15 @@ header .intro-text {
   background-repeat: repeat-x;
 }
 
+
+
 #services .service-desc {
   margin: 10px 10px 20px;
 }
-#services h2 {
-  color: #fff;
+#services h1 {
+  color: #2e2d2d;
 }
-#services .section-title h2::after {
+/* #services .section-title h2::after {
   position: absolute;
   content: "";
   background: rgba(255, 255, 255, 0.3);
@@ -349,7 +355,7 @@ header .intro-text {
   bottom: 0;
   margin-left: -30px;
   left: 50%;
-}
+} */
 #services i.fa {
   font-size: 42px;
   width: 120px;
@@ -367,14 +373,31 @@ header .intro-text {
 #services h3 {
   font-weight: 500;
   padding: 5px 0;
-  color: #fff;
+  color: #131212;
 }
 #services p {
-  color: rgba(255, 255, 255, 0.75);
+  color: rgba(30, 25, 25, 0.75);
 }
 #services .service-desc {
   margin-bottom: 40px;
 }
+
+#services .logo {
+  /* height: 100px;
+  width: 100px; */
+  /* border-radius: 50%;
+  border-width: 3px; */
+  /* border-style: solid */
+  /* background-color: black; */
+}
+
+#services .col-md-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 /* Portfolio Section */
 #portfolio {
   padding: 100px 0;

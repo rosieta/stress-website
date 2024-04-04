@@ -5,7 +5,9 @@ export const Services = (props) => {
     <div id="services" className="text-center">
       <div className="container">
         <div className="section-title">
-          <h2>STRESS EFFECTS</h2>
+          <div id="effect">
+            <h2>WHAT ARE EFFECTS?</h2>
+          </div>
           {/* <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
             dapibus leonec.
@@ -15,8 +17,14 @@ export const Services = (props) => {
           {props.data
             ? props.data.map((d, i) => (
                 <div key={`${d.name}-${i}`} className="col-md-4">
-                  {" "}
-                  <i className={d.icon}></i>
+                  <div className="logo">
+                    <img
+                      src={d.icon}
+                      // alt={d.name}
+                      style={{ width: "70px", height: "70px" }}
+                    />
+                  </div>
+                  {/* <i className={d.icon}></i> */}
                   <div className="service-desc">
                     <h3>{d.name}</h3>
                     <p>{d.text}</p>

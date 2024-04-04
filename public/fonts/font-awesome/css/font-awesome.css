@@ -500,7 +500,13 @@
   content: "\f071";
 }
 .fa-plane:before {
-  content: "\f072";
+  content: "";
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(../../../img/portfolio/broken-heart.png);
 }
 .fa-calendar:before {
   content: "\f073";
@@ -830,7 +836,13 @@
   content: "\f0ec";
 }
 .fa-cloud-download:before {
-  content: "\f0ed";
+  content: "";
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(../../../img/portfolio/sleep-disorder.png);
 }
 .fa-cloud-upload:before {
   content: "\f0ee";
@@ -1338,7 +1350,7 @@
   height: 50px;
   background-size: contain;
   background-repeat: no-repeat;
-  background-image: url(../../../img/portfolio/obesity.png);
+  background-image: url(../../../img/portfolio/hypertension.png);
 }
 .fa-openid:before {
   content: "\f19b";
@@ -1389,7 +1401,13 @@
   content: "\f1aa";
 }
 .fa-language:before {
-  content: "\f1ab";
+  content: "";
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(../../../img/portfolio/memory.png);
 }
 .fa-fax:before {
   content: "\f1ac";
@@ -1644,7 +1662,13 @@
   content: "\f1fe";
 }
 .fa-pie-chart:before {
-  content: "\f200";
+  content: "";
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(../../../img/portfolio/depressed.png);
 }
 .fa-line-chart:before {
   content: "\f201";
@@ -1715,7 +1739,13 @@
   content: "\f217";
 }
 .fa-cart-arrow-down:before {
-  content: "\f218";
+  content: "";
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(../../../img/portfolio/stress.png);
 }
 .fa-diamond:before {
   content: "\f219";
